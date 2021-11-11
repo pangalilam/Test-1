@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(224, 196, 205);
+}
+h1{
+    color: darksalmon;
+}
+h1:hover{
+	color: rgb(221, 118, 70);
+}
+h2{
+    color: rgb(221, 118, 70);
+}
+#special{
+    border:3px solid rgb(134, 82, 3);
+}
+.hello{
+    border-bottom:2px solid black;
+    color: rgb(221, 118, 70)
+}
+.hello::first-letter{
+	font-size: 100px;
+	color:rgb(221, 118, 70);
+}
+#special{
+    background: blanchedalmond;
+    width: 150px;
+    height: 100px;
+	transition: width 1s;
+	-webkit-transition: width 1s;
+}
+#special:hover{
+    width: 400px;
+    height: 150px;
+}
+
+p{
+    font-size: 1.50rem;
+}
+.sub{
+    font-size: 3rem;
+}
+@media screen and (max-width: 900px) {
+    h1{
+        font-size: 1.20rem ;
+    }
+    p{
+        font-size: 1.10rem;
+    }
+    .hello::first-letter{
+        font-size: 50px;
+        color:rgb(221, 118, 70);
+    }
+    .sub{
+        font-size: 2rem;
+    }
+}
